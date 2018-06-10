@@ -1,11 +1,11 @@
 # nominal-bilangan
-Library ini akan merubah angka menjadi bilangan dalam Bahasa Indonesia. Misal, 1000000 menjadi '1 Juta'
+Library ini akan merubah nominal angka menjadi nominal beserta bilangan yang dimiliki. Misal, 1000000 menjadi '1 Juta'
 
 ## Cara Penggunaan
 
 #### Install package
 
-``` npm install nominal-bilangan```
+```npm install nominal-bilangan```
 
 #### Penggunaan
 
