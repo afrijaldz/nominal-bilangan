@@ -1,6 +1,6 @@
 {
   "name": "nominal-bilangan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library ini akan merubah angka menjadi bilangan dalam Bahasa Indonesia. Misal, 1000000 menjadi '1 Juta'",
   "main": "index.js",
   "scripts": {
