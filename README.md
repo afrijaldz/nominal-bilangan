@@ -1,17 +1,16 @@
 # nominal-bilangan
+
 Library ini akan merubah nominal angka menjadi nominal beserta bilangan yang dimiliki. Misal, 1000000 menjadi '1 Juta'
 
 ## Cara Penggunaan
 
-#### Install package
+### Install package
 
 ```npm install nominal-bilangan```
 
-#### Penggunaan
+### Penggunaan
 
-```
-const bilangan = require('nominal-bilangan')
+```const bilangan = require('nominal-bilangan')
 
 console.log(bilangan(1000000)) // '1 Juta'
-console.log(bilangan(1250000000)) // '1,25 Milyar'
-```
+console.log(bilangan(1250000000)) // '1,25 Milyar'```
