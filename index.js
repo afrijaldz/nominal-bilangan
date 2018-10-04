@@ -28,5 +28,7 @@ module.exports = (nominal) => {
     arrayNominal.splice(arrayNominal.length - 12, arrayNominal.length - 1)
   }
 
-  return `${arrayNominal.join('')},${koma} ${bilangan}`
+  const nominalOutput = koma === '00' ? Math.floor(arrayNominal.join('')) : `${arrayNominal.join('')},${koma}`
+
+  return `${nominalOutput} ${bilangan}`
 }
