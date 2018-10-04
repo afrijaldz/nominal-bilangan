@@ -1,14 +1,17 @@
 {
   "name": "nominal-bilangan",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library ini akan merubah angka menjadi bilangan dalam Bahasa Indonesia. Misal, 1000000 menjadi '1 Juta'",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "keywords": [
     "currency"
   ],
   "author": "Afrijal Dzuhri <ijuldz@gmail.com> (http://afrijaldzuhri.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
