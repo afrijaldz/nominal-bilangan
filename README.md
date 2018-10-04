@@ -10,7 +10,25 @@ Library ini akan merubah nominal angka menjadi nominal beserta bilangan yang dim
 
 ### Penggunaan
 
-```const bilangan = require('nominal-bilangan')
+```
+const bilangan = require('nominal-bilangan')
 
 console.log(bilangan(1000000)) // '1 Juta'
-console.log(bilangan(1250000000)) // '1,25 Milyar'```
+console.log(bilangan(1250000000)) // '1,25 Milyar'
+```
+
+### Test
+
+Install `ava` ke `devDependencies`:
+
+```
+yarn install
+```
+
+Jalankan test:
+
+```
+yarn test -- --verbose # atau yarn test
+```
+
+File test berada di [`test.js`](test.js)
